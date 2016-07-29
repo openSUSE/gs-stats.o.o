@@ -1,7 +1,7 @@
 #!/bin/bash
 
 
-pushd /home/dimstar/src/openSUSE-helpers/appstream-trend
+pushd /home/dimstar/src/gs-stats.o.o/appstream-trend/
 
 SNAPSHOT=$(python get-snapshot-version.py)
 
