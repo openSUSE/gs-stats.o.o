@@ -7,7 +7,7 @@ SNAPSHOT=$(python3 get-snapshot-version.py)
 
 # Update data.txt
 cp data.txt data.txt.tmp
-rm appdata.html.xz appdata.xml.gz appdata-failed.xml.gz
+rm -f appdata.html.xz appdata.xml.gz appdata-failed.xml.gz
 python3 download-appdata.py
 appstream-util status-html appdata.xml.gz appdata.html
 appstream-util matrix-html matrix-view.html appdata.xml.gz
