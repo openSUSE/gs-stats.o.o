@@ -102,16 +102,16 @@ statusHideFilter(class_name, val)
 <body>
 <h1>Executive Summary</h1>
 <table class="summary">
-<tr><td class="alt">Keywords</td><td>266/585</td><td class="thin">45.5%</td></tr>
-<tr><td class="alt">Screenshots</td><td>561/585</td><td class="thin">95.9%</td></tr>
+<tr><td class="alt">Keywords</td><td>266/584</td><td class="thin">45.5%</td></tr>
+<tr><td class="alt">Screenshots</td><td>560/584</td><td class="thin">95.9%</td></tr>
 <tr><td class="alt"><i>SearchProvider</i></td><td>18</td><td class="thin">3.1%</td></tr>
 <tr><td class="alt"><i>UserDocs</i></td><td>113</td><td class="thin">19.3%</td></tr>
 <tr><td class="alt"><i>AppMenu</i></td><td>55</td><td class="thin">9.4%</td></tr>
-<tr><td class="alt"><i>ModernToolkit</i></td><td>448</td><td class="thin">76.6%</td></tr>
+<tr><td class="alt"><i>ModernToolkit</i></td><td>446</td><td class="thin">76.4%</td></tr>
 <tr><td class="alt"><i>Notifications</i></td><td>37</td><td class="thin">6.3%</td></tr>
 <tr><td class="alt"><i>HighContrast</i></td><td>93</td><td class="thin">15.9%</td></tr>
-<tr><td class="alt"><i>HiDpiIcon</i></td><td>527</td><td class="thin">90.1%</td></tr>
-<tr><td class="alt">MetaInfo</td><td>82</td><td class="thin"></td></tr>
+<tr><td class="alt"><i>HiDpiIcon</i></td><td>526</td><td class="thin">90.1%</td></tr>
+<tr><td class="alt">MetaInfo</td><td>99</td><td class="thin"></td></tr>
 </table>
 <br/>
 <h2>Filtering</h2>
@@ -2474,15 +2474,236 @@ statusHideFilter(class_name, val)
 </table>
 <br/>
 </div>
-<div id="app-gedit-code-assistance" class="gnome addon">
-<a name="gedit-code-assistance"/><h2>gedit-code-assistance</h2>
+<div id="app-gedit-bracketcompletion" class="gnome addon">
+<a name="gedit-bracketcompletion"/><h2>gedit-bracketcompletion</h2>
 <table class="app">
 <tr><td class="alt">Type</td><td><code>addon</code></td></tr>
 <tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
-<tr><td class="alt">Name</td><td>Code Assistance</td></tr>
-<tr><td class="alt">Comment</td><td>Assistance when writing code</td></tr>
-<tr><td class="alt">Package</td><td><code>gedit-plugin-code-assistance</code></td></tr>
-<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Projects/CodeAssistance">https://wiki.gnome.org/Projects/CodeAssistance</a></td></tr>
+<tr><td class="alt">Name</td><td>Bracket Completion</td></tr>
+<tr><td class="alt">Comment</td><td>Automatically add a closing bracket when you insert one</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-bracketcompletion</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-charmap" class="gnome addon">
+<a name="gedit-charmap"/><h2>gedit-charmap</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Charmap</td></tr>
+<tr><td class="alt">Comment</td><td>Select characters from a character map</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-charmap</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-codecomment" class="gnome addon">
+<a name="gedit-codecomment"/><h2>gedit-codecomment</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Code Comment</td></tr>
+<tr><td class="alt">Comment</td><td>Comment or uncomment blocks of code</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-codecomment</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-colorpicker" class="gnome addon">
+<a name="gedit-colorpicker"/><h2>gedit-colorpicker</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Color picker</td></tr>
+<tr><td class="alt">Comment</td><td>Select and insert a color from a dialog (for HTML, CSS, PHP)</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-colorpicker</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-colorschemer" class="gnome addon">
+<a name="gedit-colorschemer"/><h2>gedit-colorschemer</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Color Scheme Editor</td></tr>
+<tr><td class="alt">Comment</td><td>Create and edit the color scheme used for syntax highlighting</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-colorschemer</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-commander" class="gnome addon">
+<a name="gedit-commander"/><h2>gedit-commander</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Commander</td></tr>
+<tr><td class="alt">Comment</td><td>Command line interface for advanced editing</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-commander</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-drawspaces" class="gnome addon">
+<a name="gedit-drawspaces"/><h2>gedit-drawspaces</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Draw spaces</td></tr>
+<tr><td class="alt">Comment</td><td>Draw Spaces and Tabs</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-drawspaces</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-findinfiles" class="gnome addon">
+<a name="gedit-findinfiles"/><h2>gedit-findinfiles</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Find in Files</td></tr>
+<tr><td class="alt">Comment</td><td>Find text in all files of a folder</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-findinfiles</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-git" class="gnome addon">
+<a name="gedit-git"/><h2>gedit-git</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Git</td></tr>
+<tr><td class="alt">Comment</td><td>Use git information to display which lines and files changed since last commit</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-git</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-joinlines" class="gnome addon">
+<a name="gedit-joinlines"/><h2>gedit-joinlines</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Join lines/ Split lines</td></tr>
+<tr><td class="alt">Comment</td><td>Join or split multiple lines through Ctrl+J and Ctrl+Shift+J</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-joinlines</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-multiedit" class="gnome addon">
+<a name="gedit-multiedit"/><h2>gedit-multiedit</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Multi edit</td></tr>
+<tr><td class="alt">Comment</td><td>Edit document in multiple places at once</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-multiedit</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-smartspaces" class="gnome addon">
+<a name="gedit-smartspaces"/><h2>gedit-smartspaces</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Smart Spaces</td></tr>
+<tr><td class="alt">Comment</td><td>Allow to unindent like if you were using tabs while you’re using spaces</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-smartspaces</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-synctex" class="gnome addon">
+<a name="gedit-synctex"/><h2>gedit-synctex</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>SyncTeX</td></tr>
+<tr><td class="alt">Comment</td><td>Synchronize between LaTeX and PDF with gedit and evince</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-synctex</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-terminal" class="gnome addon">
+<a name="gedit-terminal"/><h2>gedit-terminal</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Terminal</td></tr>
+<tr><td class="alt">Comment</td><td>A simple terminal widget accessible from the bottom panel</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-terminal</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-textsize" class="gnome addon">
+<a name="gedit-textsize"/><h2>gedit-textsize</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Text size</td></tr>
+<tr><td class="alt">Comment</td><td>Easily increase and decrease the text size</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-textsize</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-translate" class="gnome addon">
+<a name="gedit-translate"/><h2>gedit-translate</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Translate</td></tr>
+<tr><td class="alt">Comment</td><td>Translates text into different languages</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-translate</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-wordcompletion" class="gnome addon">
+<a name="gedit-wordcompletion"/><h2>gedit-wordcompletion</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Word completion</td></tr>
+<tr><td class="alt">Comment</td><td>Propose automatic completion using words already present in the document</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-wordcompletion</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
+<tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-gedit-zeitgeist" class="gnome addon">
+<a name="gedit-zeitgeist"/><h2>gedit-zeitgeist</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>addon</code></td></tr>
+<tr><td class="alt">Extends</td><td><a href="#org.gnome.gedit.desktop">org.gnome.gedit</a></td></tr>
+<tr><td class="alt">Name</td><td>Zeitgeist Data provider</td></tr>
+<tr><td class="alt">Comment</td><td>Records user activity and giving easy access to recently-used and frequently-used files</td></tr>
+<tr><td class="alt">Package</td><td><code>gedit-plugin-zeitgeist</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://wiki.gnome.org/Apps/Gedit/ShippedPlugins">https://wiki.gnome.org/Apps/Gedit/ShippedPlugins</a></td></tr>
 <tr><td class="alt">Project</td><td>GNOME</td></tr>
 </table>
 <br/>
@@ -3588,20 +3809,6 @@ statusHideFilter(class_name, val)
 <tr><td class="alt">Keywords</td><td>audio, avc, avi, chapters, codec, h264, h265, hevc, media info, metadata, mkv, mp3, mpeg, subtitles, tag, video</td></tr>
 <tr><td class="alt">Homepage</td><td><a href="https://mediaarea.net/">https://mediaarea.net/</a></td></tr>
 <tr><td class="alt">Kudos</td><td>HiDpiIcon</td></tr>
-</table>
-<br/>
-</div>
-<div id="app-minitube.desktop" class="screenshots description">
-<a name="minitube.desktop"/><h2>minitube.desktop</h2>
-<table class="app">
-<tr><td class="alt">Type</td><td><code>desktop</code></td></tr>
-<tr><td class="alt">Name</td><td>Minitube</td></tr>
-<tr><td class="alt">Comment</td><td>YouTube app</td></tr>
-<tr><td class="alt">Description</td><td><p>Minitube is a YouTube desktop application.</p></td></tr>
-<tr><td class="alt">Package</td><td><code>minitube</code></td></tr>
-<tr><td class="alt">Categories</td><td>AudioVideo, Player, Video</td></tr>
-<tr><td class="alt">Homepage</td><td><a href="http://flavio.tordini.org/minitube">http://flavio.tordini.org/minitube</a></td></tr>
-<tr><td class="alt">Kudos</td><td>HiDpiIcon, ModernToolkit</td></tr>
 </table>
 <br/>
 </div>
@@ -5617,6 +5824,20 @@ statusHideFilter(class_name, val)
 <tr><td class="alt">Categories</td><td>Finance, Office</td></tr>
 <tr><td class="alt">Homepage</td><td><a href="https://www.gnucash.org">https://www.gnucash.org</a></td></tr>
 <tr><td class="alt">Project</td><td>GNOME</td></tr>
+</table>
+<br/>
+</div>
+<div id="app-org.godotengine.Godot" class="screenshots description">
+<a name="org.godotengine.Godot"/><h2>org.godotengine.Godot</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>desktop</code></td></tr>
+<tr><td class="alt">Name</td><td>Godot Engine</td></tr>
+<tr><td class="alt">Comment</td><td>Multi-platform 2D and 3D game engine with a feature-rich editor</td></tr>
+<tr><td class="alt">Description</td><td><p>Godot is an advanced, feature-packed, multi-platform 2D and 3D game engine. It provides a huge set of common tools, so you can just focus on making your game without reinventing the wheel.</p><p>Godot is completely free and open source under the very permissive MIT license. No strings attached, no royalties, nothing. Your game is yours, down to the last line of engine code.</p></td></tr>
+<tr><td class="alt">Package</td><td><code>godot</code></td></tr>
+<tr><td class="alt">Categories</td><td>Development, IDE</td></tr>
+<tr><td class="alt">Homepage</td><td><a href="https://godotengine.org">https://godotengine.org</a></td></tr>
+<tr><td class="alt">Kudos</td><td>HiDpiIcon</td></tr>
 </table>
 <br/>
 </div>
@@ -9618,6 +9839,18 @@ Please note you will need to install KDE Connect on your computer for this app t
 </table>
 <br/>
 </div>
+<div id="app-org.tordini.flavio.minitube" class="screenshots description">
+<a name="org.tordini.flavio.minitube"/><h2>org.tordini.flavio.minitube</h2>
+<table class="app">
+<tr><td class="alt">Type</td><td><code>generic</code></td></tr>
+<tr><td class="alt">Name</td><td>Minitube</td></tr>
+<tr><td class="alt">Comment</td><td>YouTube app</td></tr>
+<tr><td class="alt">Description</td><td><p>Minitube is a YouTube desktop application. It is written in C++ using the Qt framework.</p></td></tr>
+<tr><td class="alt">Package</td><td><code>minitube</code></td></tr>
+<tr><td class="alt">Homepage</td><td><a href="http://flavio.tordini.org/minitube">http://flavio.tordini.org/minitube</a></td></tr>
+</table>
+<br/>
+</div>
 <div id="app-org.torproject.torbrowser.desktop" class="screenshots description">
 <a name="org.torproject.torbrowser.desktop"/><h2>org.torproject.torbrowser.desktop</h2>
 <table class="app">
@@ -10543,21 +10776,6 @@ Please note you will need to install KDE Connect on your computer for this app t
 <tr><td class="alt">Keywords</td><td>command, commandline, prompt, shell, terminal</td></tr>
 <tr><td class="alt">Homepage</td><td><a href="http://gnometerminator.blogspot.com/p/introduction.html">http://gnometerminator.blogspot.com/p/introduction.html</a></td></tr>
 <tr><td class="alt">Kudos</td><td>HiDpiIcon, HighContrast</td></tr>
-</table>
-<br/>
-</div>
-<div id="app-thunar.desktop" class="screenshots description">
-<a name="thunar.desktop"/><h2>thunar.desktop</h2>
-<table class="app">
-<tr><td class="alt">Type</td><td><code>desktop</code></td></tr>
-<tr><td class="alt">Name</td><td>Thunar File Manager</td></tr>
-<tr><td class="alt">Comment</td><td>File Browser</td></tr>
-<tr><td class="alt">Description</td><td><p>Thunar is a file browser specifically designed for the Xfce Desktop, but also can serve as an alternate file browser for other Desktop environments. It has a simple, clean two-pane design for browsing all your files.</p></td></tr>
-<tr><td class="alt">Package</td><td><code>thunar</code></td></tr>
-<tr><td class="alt">Categories</td><td>Core, FileManager, System, Utility</td></tr>
-<tr><td class="alt">Homepage</td><td><a href="http://xfce.org/projects">http://xfce.org/projects</a></td></tr>
-<tr><td class="alt">Project</td><td>Xfce</td></tr>
-<tr><td class="alt">Kudos</td><td>HiDpiIcon, ModernToolkit</td></tr>
 </table>
 <br/>
 </div>
