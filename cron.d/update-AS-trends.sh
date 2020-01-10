@@ -11,7 +11,7 @@ cp data.txt data.txt.tmp
 rm -f appdata.html.xz appdata.xml.gz appdata-failed.xml.gz
 python3 download-appdata.py
 appstream-util status-html appdata.xml.gz appdata.html
-appstream-util matrix-html matrix-view.html appdata.xml.gz
+appstream-util matrix-html appdata.xml.gz matrix-view.html
 #appstream-util status-html appdata-failed.xml.gz appdata-failed.html
 
 python update-stats.py $SNAPSHOT >> data.txt.tmp
