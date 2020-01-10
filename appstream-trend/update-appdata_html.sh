@@ -9,6 +9,6 @@ pushd $(dirname $0)
 #unxz appdata.html.xza
 
 # We already downloaded the .xz file earlier and decompressed it
-git commit appdata.html data.txt appdata-failed.html matrix-view.html -m "appdata.html: $1" --no-gpg-sign
 rm appdata.xml.gz
+git commit appdata.html data.txt appdata-failed.html matrix-view.html -m "appdata.html: $1" --no-gpg-sign
 git push
