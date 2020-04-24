@@ -14,7 +14,7 @@ appstream-util status-html appdata.xml.gz appdata.html
 appstream-util matrix-html appdata.xml.gz matrix-view.html
 #appstream-util status-html appdata-failed.xml.gz appdata-failed.html
 
-python update-stats.py $SNAPSHOT >> data.txt.tmp
+python3 update-stats.py $SNAPSHOT >> data.txt.tmp
 
 # Remove duplicate entries from data.txt
 uniq data.txt.tmp > data.txt
