@@ -15,7 +15,5 @@ download_file(baseurl + 'repodata/repomd.xml', os.path.join(TmpDir.name, "repomd
 
 repomd = cr.Repomd(os.path.join(TmpDir.name, 'repomd.xml'))
 
-print (baseurl + repomd['appdata'].location_href, 'appdata.xml.gz')
-
 download_file(baseurl + repomd['appdata'].location_href, 'appdata.xml.gz')
 
