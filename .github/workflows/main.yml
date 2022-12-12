@@ -1,0 +1,22 @@
+name: auto-update-as
+
+on:
+  schedule:
+  - cron: "0 2 * * *"
+
+jobs:
+  auto-update-as:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+      with:
+        ref: ${{ github.head_ref }}
+
+    - name: Run auto-update-as
+      run: |
+        cron.d/update-AS-trends.sh
+
+    - uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Apply auto-update-as changes
