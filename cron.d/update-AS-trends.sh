@@ -1,8 +1,7 @@
 #!/bin/bash
 
 
-pushd /home/dimstar/src/gs-stats.o.o/appstream-trend/
-git pull
+pushd appstream-trend
 
 SNAPSHOT=$(python3 get-snapshot-version.py)
 
