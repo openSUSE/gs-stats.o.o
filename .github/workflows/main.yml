@@ -13,6 +13,10 @@ jobs:
       with:
         ref: ${{ github.head_ref }}
 
+    -name: Install packagaes
+     run: |
+        sudo apt-get -y install appstream-util
+
     - name: Run auto-update-as
       run: |
         cron.d/update-AS-trends.sh
