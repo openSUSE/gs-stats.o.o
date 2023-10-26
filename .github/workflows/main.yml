@@ -1,15 +1,16 @@
 name: auto-update-as
 
 on:
+  workflow_dispatch:
   schedule:
-  - cron: "0 2 * * *"
+  - cron: '0 2 * * *'
 
 jobs:
   auto-update-as:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
       with:
         ref: ${{ github.head_ref }}
 
@@ -21,6 +22,6 @@ jobs:
       run: |
         cron.d/update-AS-trends.sh
 
-    - uses: stefanzweifel/git-auto-commit-action@v4
+    - uses: stefanzweifel/git-auto-commit-action@v5
       with:
         commit_message: Apply auto-update-as changes
