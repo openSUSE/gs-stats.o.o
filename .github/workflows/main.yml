@@ -10,14 +10,17 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v4
+    - uses: actions/checkout@v6
       with:
         ref: ${{ github.head_ref }}
+
+    - name: Install needed packages
+      run: sudo apt-get install appstream-util python3-createrepo-c
 
     - name: Run auto-update-as
       run: |
         cron.d/update-AS-trends.sh
 
-    - uses: stefanzweifel/git-auto-commit-action@v5
+    - uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: Apply auto-update-as changes
