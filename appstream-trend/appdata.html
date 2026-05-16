@@ -104,10 +104,10 @@ statusHideFilter(class_name, val)
 <table class="summary">
 <tr><td class="alt">Keywords</td><td>533/875</td><td class="thin">60.9%</td></tr>
 <tr><td class="alt">Screenshots</td><td>841/875</td><td class="thin">96.1%</td></tr>
-<tr><td class="alt"><i>SearchProvider</i></td><td>18</td><td class="thin">2.1%</td></tr>
+<tr><td class="alt"><i>SearchProvider</i></td><td>17</td><td class="thin">1.9%</td></tr>
 <tr><td class="alt"><i>UserDocs</i></td><td>111</td><td class="thin">12.7%</td></tr>
 <tr><td class="alt"><i>AppMenu</i></td><td>27</td><td class="thin">3.1%</td></tr>
-<tr><td class="alt"><i>ModernToolkit</i></td><td>305</td><td class="thin">34.9%</td></tr>
+<tr><td class="alt"><i>ModernToolkit</i></td><td>304</td><td class="thin">34.7%</td></tr>
 <tr><td class="alt"><i>Notifications</i></td><td>64</td><td class="thin">7.3%</td></tr>
 <tr><td class="alt"><i>HighContrast</i></td><td>188</td><td class="thin">21.5%</td></tr>
 <tr><td class="alt"><i>HiDpiIcon</i></td><td>824</td><td class="thin">94.2%</td></tr>
@@ -1204,12 +1204,12 @@ It also supports pairing the Nintnendo Switch Pro, N64 and SNES Controllers.</p>
 <tr><td class="alt">Type</td><td><code>desktop</code></td></tr>
 <tr><td class="alt">Name</td><td>OTPClient</td></tr>
 <tr><td class="alt">Comment</td><td>Application for managing TOTP/HOTP tokens with built-in encryption</td></tr>
-<tr><td class="alt">Description</td><td><p>Highly secure and easy to use OTP client written in C/GTK3 that supports both TOTP and HOTP and has the following features:</p><ul><li>integration with the OS' secret service provider via libsecret</li><li>support both TOTP and HOTP</li><li>support setting custom digits (between 4 and 10 inclusive)</li><li>support setting a custom period (between 10 and 120 seconds inclusive)</li><li>support SHA1, SHA256 and SHA512 algorithms</li><li>support for Steam codes</li><li>import and export encrypted/plain andOTP backup</li><li>import and export encrypted/plain Aegis backup</li><li>import and export plain FreeOTPPlus backup (key URI format only)</li><li>import of Google's migration QR codes</li><li>local database is encrypted using AES256-GCM (PBKDF2 with SHA512 and 100k iterations) and, while decrypted, it's stored in a secure memory area allocated by GCrypt.</li></ul></td></tr>
+<tr><td class="alt">Description</td><td><p>OTPClient is a secure and easy-to-use desktop client for TOTP and HOTP one-time passwords, built with GTK4 and libadwaita. Features:</p><ul><li>multiple databases with sidebar management and cross-database search</li><li>token grouping with quick filtering</li><li>desktop search provider for GNOME Shell and KDE KRunner (opt-in trigger keyword)</li><li>command-line companion (otpclient-cli) with scriptable table/JSON/CSV output</li><li>support for TOTP, HOTP, and Steam codes</li><li>configurable digits (4 to 10), period (10 to 120 seconds), and algorithm (SHA1, SHA256, SHA512)</li><li>import and export of encrypted/plain Aegis backups</li><li>import and export of encrypted/plain Authenticator Pro and 2FAS backups</li><li>import and export of plain FreeOTP+ backups (key URI format)</li><li>import of Google Authenticator migration QR codes (file, screen, webcam, clipboard)</li><li>integration with the OS secret service provider via libsecret (opt-in)</li><li>local database encrypted with AES-256-GCM and Argon2id key derivation; plaintext lives only in libgcrypt secure memory while unlocked</li></ul></td></tr>
 <tr><td class="alt">Package</td><td><code>otpclient</code></td></tr>
 <tr><td class="alt">Categories</td><td>Security, System</td></tr>
 <tr><td class="alt">Keywords</td><td>2fa, 2fa-client, 2factor, 2step, hotp, otp, totp, twostep</td></tr>
 <tr><td class="alt">Homepage</td><td><a href="https://github.com/paolostivanin/OTPClient">https://github.com/paolostivanin/OTPClient</a></td></tr>
-<tr><td class="alt">Kudos</td><td>HiDpiIcon, ModernToolkit, SearchProvider</td></tr>
+<tr><td class="alt">Kudos</td><td>HiDpiIcon</td></tr>
 </table>
 <br/>
 </div>
@@ -4358,7 +4358,7 @@ For the full list of supported features, please visit the DOSBox Staging website
 <tr><td class="alt">Name</td><td>LACT</td></tr>
 <tr><td class="alt">Comment</td><td>Control your graphics cards</td></tr>
 <tr><td class="alt">Description</td><td><p>LACT lets you configure and monitor your AMD, Nvidia or Intel GPU on Linux.</p><p>Supported functionality:</p><ul><li>Detailed GPU information</li><li>Overclocking</li><li>Power limits</li><li>Fan control</li><li>Monitoring with historical charts</li></ul></td></tr>
-<tr><td class="alt">Package</td><td><code>lact-headless</code></td></tr>
+<tr><td class="alt">Package</td><td><code>lact</code></td></tr>
 <tr><td class="alt">Categories</td><td>System</td></tr>
 <tr><td class="alt">Keywords</td><td>AMD, GPU, Radeon</td></tr>
 <tr><td class="alt">Homepage</td><td><a href="https://github.com/ilya-zlobintsev/LACT">https://github.com/ilya-zlobintsev/LACT</a></td></tr>
@@ -14554,7 +14554,7 @@ podman (Pod Manager) is a fully featured daemon-less engine for OCI containers, 
 <tr><td class="alt">Name</td><td>Prism Launcher</td></tr>
 <tr><td class="alt">Comment</td><td>Custom Minecraft Launcher to easily manage multiple Minecraft installations at once</td></tr>
 <tr><td class="alt">Description</td><td><p>Prism Launcher is a custom launcher for Minecraft that focuses on predictability, long term stability and simplicity.</p><p>Features:</p><ul><li>Easily install game modifications, such as Fabric, Forge and Quilt</li><li>Easily install and update modpacks from the Launcher</li><li>Control your Java settings, and enable Mangohud or Gamemode with a toggle</li><li>Manage worlds and resource packs from the launcher</li><li>See logs and other details easily through a dashboard</li><li>Kill Minecraft in case of a crash/freeze</li><li>Isolate Minecraft instances to keep everything clean</li><li>Install and update mods directly from the launcher</li><li>Customize the launcher with themes, and more</li><li>And cat :3</li></ul></td></tr>
-<tr><td class="alt">Package</td><td><code>prismlauncher</code></td></tr>
+<tr><td class="alt">Package</td><td><code>prismlauncher-cracked</code></td></tr>
 <tr><td class="alt">Categories</td><td>ActionGame, AdventureGame, Game, PackageManager, Simulation</td></tr>
 <tr><td class="alt">Keywords</td><td>game, mc, minecraft</td></tr>
 <tr><td class="alt">Homepage</td><td><a href="https://prismlauncher.org/">https://prismlauncher.org/</a></td></tr>
